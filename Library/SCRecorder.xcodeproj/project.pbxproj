@@ -133,6 +133,7 @@
 		E27AC0B7221BF791002F4372 /* UIImage+SCSaveToCameraRoll.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B02E3D1BCC003D00559011 /* UIImage+SCSaveToCameraRoll.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27AC0B8221BF794002F4372 /* SCFilter+UIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9079317D1BD451C200D7D181 /* SCFilter+UIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27AC0B9221BF796002F4372 /* SCFilter+VideoComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 907931791BD2A06700D7D181 /* SCFilter+VideoComposition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0BA221BF7F7002F4372 /* SCFilterImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4FBDD1BC6C1840017748D /* SCFilterImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -574,6 +575,7 @@
 				DCDC1E301AC799CF001DC3D9 /* SCMediaTypeConfiguration.h in Headers */,
 				DCDC1E311AC799CF001DC3D9 /* SCPhotoConfiguration.h in Headers */,
 				DCDC1E321AC799CF001DC3D9 /* SCRecordSession.h in Headers */,
+				E27AC0BA221BF7F7002F4372 /* SCFilterImageView.h in Headers */,
 				E27AC0B9221BF796002F4372 /* SCFilter+VideoComposition.h in Headers */,
 				E27AC0B8221BF794002F4372 /* SCFilter+UIImage.h in Headers */,
 				DCDC1E331AC799CF001DC3D9 /* SCRecorder.h in Headers */,

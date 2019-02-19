@@ -122,6 +122,10 @@
 		DCEE378E1B17F3D50019C7B5 /* SCWeakSelectorTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10CF271ACFD458009880C4 /* SCWeakSelectorTarget.m */; };
 		DCEE378F1B17F3D50019C7B5 /* SCFilterAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A62BE1AFA47EC00EAB60C /* SCFilterAnimation.m */; };
 		DCF3A68F1AB9F4760034CF5C /* SCRecorderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF3A68E1AB9F4760034CF5C /* SCRecorderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0AD221BF515002F4372 /* SCProcessingQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD12A9E1B456C5E0064674D /* SCProcessingQueue.m */; };
+		E27AC0AE221BF533002F4372 /* SCIOPixelBuffers.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD12AA31B45AA540064674D /* SCIOPixelBuffers.m */; };
+		E27AC0AF221BF548002F4372 /* SCIOPixelBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD12AA21B45AA540064674D /* SCIOPixelBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0B0221BF550002F4372 /* SCProcessingQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD12A9D1B456C5E0064674D /* SCProcessingQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -554,11 +558,13 @@
 			files = (
 				DCDC1DF81AC79592001DC3D9 /* SCRecorderFramework.h in Headers */,
 				DCDC1E2E1AC799CF001DC3D9 /* SCVideoConfiguration.h in Headers */,
+				E27AC0B0221BF550002F4372 /* SCProcessingQueue.h in Headers */,
 				DCDC1E2F1AC799CF001DC3D9 /* SCAudioConfiguration.h in Headers */,
 				DCDC1E301AC799CF001DC3D9 /* SCMediaTypeConfiguration.h in Headers */,
 				DCDC1E311AC799CF001DC3D9 /* SCPhotoConfiguration.h in Headers */,
 				DCDC1E321AC799CF001DC3D9 /* SCRecordSession.h in Headers */,
 				DCDC1E331AC799CF001DC3D9 /* SCRecorder.h in Headers */,
+				E27AC0AF221BF548002F4372 /* SCIOPixelBuffers.h in Headers */,
 				DCDC1E341AC799CF001DC3D9 /* SCRecordSessionSegment.h in Headers */,
 				DCDC1E351AC799CF001DC3D9 /* SCRecorderDelegate.h in Headers */,
 				DCDC1E361AC799CF001DC3D9 /* SCRecorderFocusTargetView.h in Headers */,
@@ -737,6 +743,8 @@
 				DCEE378D1B17F3CA0019C7B5 /* SCContext.m in Sources */,
 				DCDC1E161AC797EF001DC3D9 /* SCVideoConfiguration.m in Sources */,
 				DCDC1E171AC797EF001DC3D9 /* SCAudioConfiguration.m in Sources */,
+				E27AC0AD221BF515002F4372 /* SCProcessingQueue.m in Sources */,
+				E27AC0AE221BF533002F4372 /* SCIOPixelBuffers.m in Sources */,
 				DCDC1E181AC797EF001DC3D9 /* SCMediaTypeConfiguration.m in Sources */,
 				DCDC1E191AC797EF001DC3D9 /* SCPhotoConfiguration.m in Sources */,
 				DCDC1E1A1AC797EF001DC3D9 /* SCRecordSession.m in Sources */,

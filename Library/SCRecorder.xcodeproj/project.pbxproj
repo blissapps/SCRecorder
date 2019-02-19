@@ -128,6 +128,11 @@
 		E27AC0B0221BF550002F4372 /* SCProcessingQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD12A9D1B456C5E0064674D /* SCProcessingQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27AC0B3221BF685002F4372 /* SCFilterAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7A62BD1AFA47EC00EAB60C /* SCFilterAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27AC0B4221BF70D002F4372 /* SCContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEE37881B17E6480019C7B5 /* SCContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0B5221BF779002F4372 /* SCRecorderHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B02E411BCC00AC00559011 /* SCRecorderHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0B6221BF78C002F4372 /* NSURL+SCSaveToCameraRoll.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B02E331BC995CD00559011 /* NSURL+SCSaveToCameraRoll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0B7221BF791002F4372 /* UIImage+SCSaveToCameraRoll.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B02E3D1BCC003D00559011 /* UIImage+SCSaveToCameraRoll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0B8221BF794002F4372 /* SCFilter+UIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9079317D1BD451C200D7D181 /* SCFilter+UIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0B9221BF796002F4372 /* SCFilter+VideoComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 907931791BD2A06700D7D181 /* SCFilter+VideoComposition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -558,6 +563,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27AC0B7221BF791002F4372 /* UIImage+SCSaveToCameraRoll.h in Headers */,
+				E27AC0B6221BF78C002F4372 /* NSURL+SCSaveToCameraRoll.h in Headers */,
 				DCDC1DF81AC79592001DC3D9 /* SCRecorderFramework.h in Headers */,
 				E27AC0B3221BF685002F4372 /* SCFilterAnimation.h in Headers */,
 				E27AC0B4221BF70D002F4372 /* SCContext.h in Headers */,
@@ -567,6 +574,8 @@
 				DCDC1E301AC799CF001DC3D9 /* SCMediaTypeConfiguration.h in Headers */,
 				DCDC1E311AC799CF001DC3D9 /* SCPhotoConfiguration.h in Headers */,
 				DCDC1E321AC799CF001DC3D9 /* SCRecordSession.h in Headers */,
+				E27AC0B9221BF796002F4372 /* SCFilter+VideoComposition.h in Headers */,
+				E27AC0B8221BF794002F4372 /* SCFilter+UIImage.h in Headers */,
 				DCDC1E331AC799CF001DC3D9 /* SCRecorder.h in Headers */,
 				E27AC0AF221BF548002F4372 /* SCIOPixelBuffers.h in Headers */,
 				DCDC1E341AC799CF001DC3D9 /* SCRecordSessionSegment.h in Headers */,
@@ -575,6 +584,7 @@
 				DCDC1E371AC799CF001DC3D9 /* SCRecorderToolsView.h in Headers */,
 				DCDC1E391AC799CF001DC3D9 /* SCSwipeableFilterView.h in Headers */,
 				DCDC1E3C1AC799CF001DC3D9 /* SCImageView.h in Headers */,
+				E27AC0B5221BF779002F4372 /* SCRecorderHeader.h in Headers */,
 				DCDC1E3D1AC799CF001DC3D9 /* SCPlayer.h in Headers */,
 				DCDC1E3E1AC799CF001DC3D9 /* SCVideoPlayerView.h in Headers */,
 				DCDC1E401AC799CF001DC3D9 /* SCSampleBufferHolder.h in Headers */,

@@ -127,6 +127,7 @@
 		E27AC0AF221BF548002F4372 /* SCIOPixelBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD12AA21B45AA540064674D /* SCIOPixelBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27AC0B0221BF550002F4372 /* SCProcessingQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD12A9D1B456C5E0064674D /* SCProcessingQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E27AC0B3221BF685002F4372 /* SCFilterAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7A62BD1AFA47EC00EAB60C /* SCFilterAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AC0B4221BF70D002F4372 /* SCContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEE37881B17E6480019C7B5 /* SCContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -559,6 +560,7 @@
 			files = (
 				DCDC1DF81AC79592001DC3D9 /* SCRecorderFramework.h in Headers */,
 				E27AC0B3221BF685002F4372 /* SCFilterAnimation.h in Headers */,
+				E27AC0B4221BF70D002F4372 /* SCContext.h in Headers */,
 				DCDC1E2E1AC799CF001DC3D9 /* SCVideoConfiguration.h in Headers */,
 				E27AC0B0221BF550002F4372 /* SCProcessingQueue.h in Headers */,
 				DCDC1E2F1AC799CF001DC3D9 /* SCAudioConfiguration.h in Headers */,
